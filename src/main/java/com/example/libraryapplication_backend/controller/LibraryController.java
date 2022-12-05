@@ -9,5 +9,10 @@ public class LibraryController {
     public String AdministrationLogin(){
         return "Welcome to administration login page";
     }
+
+    @PostMapping("/signup")
+    public String UserSignup(){
+        return "Welcome to user registration page";
+    }
 }
 
